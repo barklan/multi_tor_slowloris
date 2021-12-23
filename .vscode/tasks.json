@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+		{
+            "label": "run.sh tor",
+            "type": "shell",
+            "command": "bash -i run.sh tor",
+            "isBackground": true,
+        },
+		{
+            "label": "run.sh rotator",
+            "type": "shell",
+            "command": "bash -i run.sh rotator",
+            "isBackground": true,
+        },
+		{
+            "label": "run.sh slowloris",
+            "type": "shell",
+            "command": "bash -i run.sh slowloris",
+            "isBackground": true,
+        },
+		{
+            "label": "run.sh slowloris_srv",
+            "type": "shell",
+            "command": "bash -i run.sh slowloris_srv",
+            "isBackground": true,
+        },
+		{
+            "label": "run.sh tord",
+            "type": "shell",
+            "command": "bash -i run.sh tord",
+            "isBackground": true,
+        },
+		{
+            "label": "run.sh slowlorisd",
+            "type": "shell",
+            "command": "bash -i run.sh slowlorisd",
+            "isBackground": true,
+        },
+    ],
+}
